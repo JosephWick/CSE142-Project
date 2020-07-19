@@ -8,3 +8,13 @@ My algorithm uses the following steps:
 3. Clustering on the reduced dimensions with simple kmeans 
 
 Using the data given in class, the algorithm acheived about 96% accuracy in clustering
+
+Here, we can see the autoencoder's reconstructed images compared to the original
+
+![Image of Reconstruction](images/reconstructed.png)
+
+Here, we can see the clusters of the validation set after tSNE
+
+![Image of clusters](https://github.com/JosephWick/CSE142-Project/blob/master/images/clusters.png)
+
+Visually, its clear that the algorithm creates strong clusters. Each colors corresponds to a different ground truth. 
